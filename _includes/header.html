@@ -2,9 +2,9 @@
 
   <div class="wrapper">
 
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/linuxchixarg.svg" width="60px"/>
     {% assign custom_url = site.url | append: site.baseurl %}
     {% assign full_base_url = site.github.url | default: custom_url %}
+    <img src="{{ full_base_url }}/assets/linuxchixarg.svg" width="60px"/>
     <a class="site-title" style="float:none" href="{{ full_base_url }}/">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
