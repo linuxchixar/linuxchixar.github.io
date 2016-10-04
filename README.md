@@ -3,6 +3,7 @@
 Prerequisitos:
 * Ruby >=2.0.0
 * Bundler
+* Jekyll
 
 Antes que nada probamos si tenemos una versión de Ruby mayor a 2.0.0 instalada
 
@@ -52,6 +53,12 @@ Si no lo hicimos ya, elegir la versión de Ruby a usar
 Instalar bundler:
 
     gem install bundler
+    
+### Instalando Jekyll
+
+    bundle install
+    
+Esto va a leer nuestro ```Gemfile``` e instalar todas las dependencias necesarias
     
 ## Corriendo la web localmente
  
