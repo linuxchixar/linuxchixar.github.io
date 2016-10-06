@@ -31,7 +31,7 @@ curl -sSL https://get.rvm.io | bash -s stable --ruby
 3. Correr el script que nos pide RVM:
      
 ```bash
-source /home/{miusuario}/.rvm/scripts/rvm
+source ~/.rvm/scripts/rvm
 ```
 
 
