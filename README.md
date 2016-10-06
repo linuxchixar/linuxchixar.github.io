@@ -1,9 +1,9 @@
 # Pasos para correr el sitio localmente en GNU/Linux
 
 Prerequisitos:
-* Ruby >= 2.0.0
-* Bundler
-* Jekyll
+* [Ruby](https://www.ruby-lang.org) >= 2.0.0
+* [Bundler](https://bundler.io)
+* [Jekyll](https://jekyllrb.com)
 
 Antes que nada probamos si tenemos una versión de Ruby mayor a 2.0.0 instalada:
 
