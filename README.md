@@ -71,7 +71,7 @@ Esto va a leer nuestro ```Gemfile``` e instalar todas las dependencias necesaria
 
 4. Copiar archivo de configuración para los seteos locales:
 
-    ```cp _config.yaml _config_local.yml```
+    ```cp _config.yml _config_local.yml```
     
     
 5. Editar _config_local.yml, cambiamos el valor de ```url``` por ```http://127.0.0.1:4000```
