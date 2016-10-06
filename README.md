@@ -1,19 +1,20 @@
-# Pasos para tener el sitio corriendo localmente en GNU/Linux
+# Pasos para correr el sitio localmente en GNU/Linux
 
 Prerequisitos:
-* Ruby >=2.0.0
+* Ruby >= 2.0.0
 * Bundler
 * Jekyll
 
-Antes que nada probamos si tenemos una versión de Ruby mayor a 2.0.0 instalada
+Antes que nada probamos si tenemos una versión de Ruby mayor a 2.0.0 instalada:
 
 ```bash
 ruby --version
 ```
 
-Si no tenemos la versión correcta (o no tenemos Ruby) lo instalamos.
+Si no tenemos la versión correcta *(o no tenemos Ruby)* lo instalamos.
 
 ## Instalando Ruby
+
 La manera más fácil de tener la última versión es mediante RVM (https://rvm.io):
 
 1. Importar la key de RVM. **Importante**. Ir a https://rvm.io y usar la key que aparece allí en la sección "Install RVM" 
@@ -47,20 +48,20 @@ rvm list
 rvm use {version_mas_nueva}
 ```
 
-
-Si este comando nos tira un error del tipo RVM is not a function, selecting rubies with 'rvm use ...' will not work, hacemos:
+Si este comando nos tira un error del tipo *RVM is not a function, selecting rubies with 'rvm use ...' will not work*, hacemos:
 
 ```bash
 /bin/bash --login
 ```
 
-Y luego nuevamente 
+Y luego nuevamente:
 
 ```bash
 rvm use {version_mas_nueva}
 ```    
 
 ### Instalando Bundle
+
 Si no lo hicimos ya, elegir la versión de Ruby a usar:
 
 ```bash
@@ -78,7 +79,7 @@ gem install bundler
 ```bash
 bundle install
 ```
-    
+
 Esto va a leer nuestro `Gemfile` e instalar todas las dependencias necesarias.
 
 ## Corriendo la web localmente
@@ -86,9 +87,9 @@ Esto va a leer nuestro `Gemfile` e instalar todas las dependencias necesarias.
 
 1. [Forkear el repo desde github.](https://github.com/linuxchixar/linuxchixar-web#fork-destination-box "Click para Forkear")
 
-2. Clonar el repo forkeado a nuestra máquina
+2. Clonar el repo forkeado a nuestra máquina.
 
-3. Correr RVM para usar la versión correcta de Ruby (ver pasos 4 y 5 de la sección "Instalando Ruby")
+3. Correr RVM para usar la versión correcta de Ruby *(ver pasos 4 y 5 de la sección "Instalando Ruby")*.
 
 4. Copiar archivo de configuración para los seteos locales:
 
@@ -98,7 +99,7 @@ cp _config.yml _config_local.yml
     
 5. Editar `_config_local.yml`, cambiamos el valor de `url` por `http://127.0.0.1:4000`
 
-6. Correr el servidor de Jekyll con nuestra configuración local
+6. Correr el servidor de Jekyll con nuestra configuración local.
 
 ```bash
 bundle exec jekyll serve --config _config_local.yml
