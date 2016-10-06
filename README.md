@@ -19,46 +19,45 @@ La manera más fácil de tener la última versión es mediante RVM (https://rvm.
 
 1. Importar la key de RVM. **Importante**. Ir a https://rvm.io y usar la key que aparece allí en la sección "Install RVM" 
 
-```bash
-gpg --keyserver hkp://keys.gnupg.net --recv-keys {key}
-```
+     ```bash
+     gpg --keyserver hkp://keys.gnupg.net --recv-keys {key}
+     ```
 
 2. Instalar RVM junto con Ruby:
 
-```bash
-curl -sSL https://get.rvm.io | bash -s stable --ruby
-```
+     ```bash
+     curl -sSL https://get.rvm.io | bash -s stable --ruby
+     ```
 
 3. Correr el script que nos pide RVM:
      
-```bash
-source ~/.rvm/scripts/rvm
-```
-
+     ```bash
+     source ~/.rvm/scripts/rvm
+     ```
 
 4. Listar las versiones de Ruby que tenemos para elegir cuál usar:
      
-```bash
-rvm list
-```
+     ```bash
+     rvm list
+     ```
 
 5. Tomar nota de la versión más nueva y escribir:
 
-```bash
-rvm use {version_mas_nueva}
-```
+     ```bash
+     rvm use {version_mas_nueva}
+     ```
 
 Si este comando nos tira un error del tipo *RVM is not a function, selecting rubies with 'rvm use ...' will not work*, hacemos:
 
-```bash
-/bin/bash --login
-```
+     ```bash
+     /bin/bash --login
+     ```
 
 Y luego nuevamente:
 
-```bash
-rvm use {version_mas_nueva}
-```    
+     ```bash
+     rvm use {version_mas_nueva}
+     ```    
 
 ### Instalando Bundle
 
@@ -89,15 +88,15 @@ Esto va a leer nuestro `Gemfile` e instalar todas las dependencias necesarias.
 
 2. Clonar el repo forkeado a nuestra máquina.
 
-3. Correr RVM para usar la versión correcta de Ruby *(ver pasos 4 y 5 de la sección "Instalando Ruby")*.
+3. Correr RVM para usar la versión correcta de Ruby *[(ver pasos 4 y 5 de la sección "Instalando Ruby")](https://github.com/juancarlospaco/linuxchixar-web/blob/master/README.md#instalando-ruby)*.
 
-4. Copiar archivo de configuración para los seteos locales:
+4. Copiar archivo de configuración, para editarlo con los ajustes locales:
 
 ```bash
 cp _config.yml _config_local.yml
 ```
     
-5. Editar `_config_local.yml`, cambiamos el valor de `url` por `http://127.0.0.1:4000`
+5. Editar `_config_local.yml`, cambiamos el valor de `url` por `http://127.0.0.1:4000` *(En linea 20 aprox.)*
 
 6. Correr el servidor de Jekyll con nuestra configuración local.
 
