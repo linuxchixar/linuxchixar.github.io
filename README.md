@@ -79,7 +79,7 @@ Esto va a leer nuestro ```Gemfile``` e instalar todas las dependencias necesaria
 6. Correr el servidor de Jekyll con nuestra configuración local
 
     
-    ```jekyll serve --config _config_local.yml```
+    ```bundle exec jekyll serve --config _config_local.yml```
     
     
 7. En el browser ingresar a ```http://127.0.0.1:4000/linuxchixar-web/```
