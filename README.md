@@ -92,21 +92,21 @@ Esto va a leer nuestro `Gemfile` e instalar todas las dependencias necesarias.
 
 4. Copiar archivo de configuración, para editarlo con los ajustes locales:
 
-```bash
-cp _config.yml _config_local.yml
-```
+     ```bash
+     cp _config.yml _config_local.yml
+     ```
     
 5. Editar `_config_local.yml`, cambiamos el valor de `url` por `http://127.0.0.1:4000` *(En linea 20 aprox.)*
 
 6. Correr el servidor de Jekyll con nuestra configuración local.
 
-```bash
-bundle exec jekyll serve --config _config_local.yml
-```
+     ```bash
+     bundle exec jekyll serve --config _config_local.yml
+     ```
 
 7. En el browser ingresar a [http://127.0.0.1:4000/linuxchixar-web/](http://127.0.0.1:4000/linuxchixar-web/)
 
-Ya tenemos el sitio corriendo localmente.
+Ya tenemos el sitio corriendo localmente. *Happy Hacking !.*
 
 
 
