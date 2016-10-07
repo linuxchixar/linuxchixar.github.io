@@ -49,15 +49,15 @@ La manera más fácil de tener la última versión es mediante RVM (https://rvm.
 
 Si este comando nos tira un error del tipo *RVM is not a function, selecting rubies with 'rvm use ...' will not work*, hacemos:
 
-     ```bash
-     /bin/bash --login
-     ```
+```bash
+/bin/bash --login
+```
 
 Y luego nuevamente:
 
-     ```bash
-     rvm use {version_mas_nueva}
-     ```    
+```bash
+rvm use {version_mas_nueva}
+```    
 
 ### Instalando Bundle
 
