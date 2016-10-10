@@ -17,8 +17,9 @@ Nos invitaron a participar de un juego de escape en [Juegos Mentales](http://jue
 Estuvo buenísimo! Acá algunas fotos (obviamente fotos de fuera de la sala, así no hay spoilers!):
 
 
+{% assign gallery_url = site.url | append: site.baseurl | append: "/assets/photos/2016-01-20-linuxchix-jugando-a-escapar"%}
 
-![LinuxChix en Juegos Mentales]({{ full_base_url}}/assets/photos/juegos_mentales2.jpg)
+![LinuxChix en Juegos Mentales]({{gallery_url}}/juegos_mentales2.jpg)
 
 
-![LinuxChix en Juegos Mentales]({{ site.url}}{{site.baseurl}}/assets/photos/juegos_mentales1.jpg)
+![LinuxChix en Juegos Mentales]({{gallery_url}}/juegos_mentales1.jpg)
