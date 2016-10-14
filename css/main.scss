@@ -37,3 +37,47 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+
+
+//---------------- CUSTOM STYLES FOR LINUXCHIXAR WEB -------------------------//
+// Colors based on previous web.
+
+
+@import url(https://fonts.googleapis.com/css?family=Amaranth);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+body {
+    background-color: #60738a;
+    background: radial-gradient(#00b3fe 5%, transparent 60%, transparent 100%), #60738a;
+    background-size: 9px 9px;
+    background-blend-mode: screen;
+    font-family: Amaranth, sans-serif;
+}
+
+.page-content {
+    background:
+                linear-gradient(        lightgrey,   transparent),
+                linear-gradient(90deg,  #00b3fe,     transparent),
+                linear-gradient(-90deg, floralwhite, transparent);
+    background-blend-mode: screen;
+    font-family: Oxygen, sans-serif;
+}
+
+.site-footer, .site-header {
+    background-color: #60738a;
+    border: 0;
+}
+
+.footer-col a, .trigger > a, .page-link, .footer-col p, .contact-list li, {
+    color: #424242;
+}
+
+.page-content a {
+    text-shadow: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.page-content a:hover {
+    text-shadow: grey 0 0 9px;
+}
