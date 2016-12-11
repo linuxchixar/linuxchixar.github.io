@@ -4,8 +4,8 @@
 title: LinuxChix Argentina
 description: "LinuxChix Argentina es una comunidad que busca conectar, visibilizar y fomentar la participación de mujeres en el software libre."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: ""
-url: "https://127.0.0.1:4000"
+baseurl: "/linuxchixar-web"
+url: "https://linuxchixar.github.io"
 
 # Build settings
 markdown: kramdown
@@ -20,33 +20,17 @@ colors:  #in hex code if not noted else
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
-  
-  
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+   
+# Redes sociales.
 social:
-  - title: dribbble
-    url:
   - title: facebook
     url: https://www.facebook.com/linuxchixar/
   - title: twitter
     url: https://www.twitter.com/linuxchixar/
-  - title: instagram
-    url: 
   - title: meetup
     url: https://www.meetup.com/linuxchixar/events/236051124/ 
     
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
-
-# Comunidades amigas. Se muestra en el Inicio y en Sobre nosotros.
+# Comunidades amigas.
 communities:
   - name: Python Argentina
     img: pyar.png
@@ -60,7 +44,7 @@ communities:
 # Texto corto (elevator pitch) sobre LinuxChix Argentina. Se muestra en el footer de todas las páginas.
 about: "LinuxChix Argentina es una comunidad que busca conectar, visibilizar y fomentar la participación de mujeres en el software libre."
 
-# Citas inspiracionles. Se muestra en el Inicio y en Sobre nosotros. 
+# Citas inspiracionles. Se muestra en el Inicio.
 # TODO(vkmc). Agregar soporte para mas citas.
 quotes:
     message: "Lo más difícil es la decisión de actuar, el resto es sólo tenacidad."
