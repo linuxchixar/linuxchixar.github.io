@@ -1,22 +1,32 @@
 ---
-layout: default
+layout: index
+title: Home
+permalink: /
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</div>
+<div id="service">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-3">
+                <i class="fa fa-users"></i>
+                <h4>Nuestra comunidad</h4>
+                <p>Somos un grupo de mujeres y hombres con diferentes perfiles dentro del ámbito de la tecnología en Argentina. Developers, admins, operators, estudiantes... todos son bienvenidos.</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-laptop"></i>
+                <h4>Nuestro objetivo</h4>
+                <p>Nuestro grupo comenzó como un esfuerzo por reunir mujeres que se encuentren trabajando con tecnologías libres, y hoy por hoy, estamos intentando promover que más mujeres de diferentes ámbitos (relacionados con la tecnología) se involucren en este campo.</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-bullhorn"></i>
+                <h4>Nuestro plan</h4>
+                <p>Buscamos crear un espacio que haga que más mujeres se animen a dar sus primeros pasos en el software libre, y desde ese punto empiecen a participar de otras comunidades.</p>
+            </div>
+            <div class="col-md-3">
+                 <i class="fa fa-calendar"></i>
+                 <h4>Nuestras actividades</h4>
+                 <p>Estaremos ayudando a la difusión de oportunidades laborales y de capacitación, y además participaremos en la organización de reuniones, talleres y conferencias que tengan como objetivo principal aumentar la inclusión. ¡Fijate las últimas novedades en el <a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a>!</p>
+            </div> 				
+        </div>
+    </div><! --/container -->
+</div><! --/service -->

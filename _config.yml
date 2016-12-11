@@ -1,26 +1,67 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+### GENERAL SETTINGS ###
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: LinuxChix Argentina 
-# email: your-email@domain.com
-description: Comunidad para visibilizar mujeres del mundo GNU/Linux y del Software Libre, y para todas las personas que ayudan a disminuir la brecha de género. 
-baseurl: /linuxchixar-web
-url: https://linuxchixar.github.io
-twitter_username: linuxchixar
-github_username:  linuxchixar
+title: LinuxChix Argentina
+description: "LinuxChix Argentina es una comunidad que busca conectar, visibilizar y fomentar la participación de mujeres en el software libre."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: ""
+url: "https://127.0.0.1:4000"
 
 # Build settings
 markdown: kramdown
-theme: minima
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031" 
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+  
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: dribbble
+    url:
+  - title: facebook
+    url: https://www.facebook.com/linuxchixar/
+  - title: twitter
+    url: https://www.twitter.com/linuxchixar/
+  - title: instagram
+    url: 
+  - title: meetup
+    url: https://www.meetup.com/linuxchixar/events/236051124/ 
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines: 
+    - Some Ave, 987,
+    - 23890, New York,
+    - United States.
+email: hello@solidtheme.com
+tel: +34 8493-4893
+
+# Comunidades amigas. Se muestra en el Inicio y en Sobre nosotros.
+communities:
+  - name: Python Argentina
+    img: pyar.png
+  - name: Sysarmy
+    img: sysarmy.png
+  - name: Argentina en Python
+    img: argentinaenpython.png
+  - name: Chicas en Tecnología
+    img: chicasentecnologia.jpg
+    
+# Texto corto (elevator pitch) sobre LinuxChix Argentina. Se muestra en el footer de todas las páginas.
+about: "LinuxChix Argentina es una comunidad que busca conectar, visibilizar y fomentar la participación de mujeres en el software libre."
+
+# Citas inspiracionles. Se muestra en el Inicio y en Sobre nosotros. 
+# TODO(vkmc). Agregar soporte para mas citas.
+quotes:
+    message: "Lo más difícil es la decisión de actuar, el resto es sólo tenacidad."
+    author: Amelia Earhart
