@@ -4,7 +4,7 @@
 title: LinuxChix Argentina
 description: "LinuxChix Argentina es una comunidad que busca conectar, visibilizar y fomentar la participación de mujeres en el software libre."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/linuxchixar-web"
+baseurl: ""
 url: "https://linuxchixar.github.io"
 
 # Build settings
