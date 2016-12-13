@@ -17,6 +17,7 @@ En el taller vimos una gentil introducción al mundo de deep learning desde Pyth
 
 [Si no pudiste asistir acá te dejamos el material](https://github.com/celiacintas/star_wars_hackathon)
 
+[El album completo](http://bit.ly/fotos-taller-deep-learning-pyconar2016)
 
 Algunas fotos del momento:
 
