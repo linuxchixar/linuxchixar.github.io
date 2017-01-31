@@ -64,7 +64,7 @@ rvm use {version_mas_nueva}
 ### Fedora 25
 
 ```bash
-sudo dnf install ruby ruby-devel
+sudo dnf install ruby ruby-devel redhat-rpm-config zlib-devel gcc-c++
 ```  
 
 ### Instalando Bundle
