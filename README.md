@@ -15,6 +15,8 @@ Si no tenemos la versión correcta *(o no tenemos Ruby)* lo instalamos.
 
 ## Instalando Ruby
 
+#### RVM
+
 La manera más fácil de tener la última versión es mediante RVM (https://rvm.io):
 
 1. Importar la key de RVM. **Importante**. Ir a https://rvm.io y usar la key que aparece allí en la sección "Install RVM"
@@ -58,6 +60,12 @@ Y luego nuevamente:
 ```bash
 rvm use {version_mas_nueva}
 ```    
+
+### Fedora 25
+
+```bash
+sudo dnf install ruby ruby-devel
+```  
 
 ### Instalando Bundle
 
