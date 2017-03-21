@@ -39,7 +39,9 @@ communities:
   - name: Argentina en Python
     img: argentinaenpython.png
   - name: Chicas en Tecnología
-    img: chicasentecnologia.jpg
+    img: chicasentecnologia.png
+  - name: FLISoL
+    img: flisologo.png
     
 # Texto corto (elevator pitch) sobre LinuxChix Argentina. Se muestra en el footer de todas las páginas.
 about: "LinuxChix Argentina es una comunidad que busca conectar, visibilizar y fomentar la participación de mujeres en el software libre."
