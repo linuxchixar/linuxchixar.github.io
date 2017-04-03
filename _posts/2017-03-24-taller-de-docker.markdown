@@ -55,7 +55,7 @@ del kernel de Linux para el daemon de Docker.
 
 ## Requerimientos
 
-- Windows 10 Pro, Enterprise o Education x86_86.
+- *Windows 10 64bit*, en alguna de las siguientes versiones: Pro, Enterprise o Education(1511 November update, Build 10586 o posterior)
 - Hyper-V tiene que estar habilitado. El instalador de Docker para Windows va a habilitarlo por vos si es necesario
 (esto va a requerir un reinicio).
 
