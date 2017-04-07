@@ -151,8 +151,10 @@ Para esto vamos a correr nuestro primer container, el clásico y favorito "Hello
 Para esto ejecutamos el siguiente comando en la terminal de Docker
 
 ```bash
-$ sudo docker run hello-world
+$ docker run hello-world
 ```
+**Para Linux**: Vas a tener que agregar ```sudo``` adelante de los comandos de Docker. Si preferís no ejecutar los comandos con sudo, seguí estos pasos (En inglés): https://docs.docker.com/engine/installation/linux/linux-postinstall/
+
 
 Este comando baja una imagen de Docker con un programita embebido, instancia esta imagen (es decir,
 crea un container de Docker con esa imagen) y muestra en la terminal el mensajito "Hello, world".
